@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style> 
+    .hen{
+      margin-left: 50px;
+      color:#ff004f;
+      list-style: none;
+    }
+   
+  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/27e71573f8.js" crossorigin="anonymous"></script>
+  
+  
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+    <nav id="nav">
+      <!--<img src="/assets/css/bio.jpg" height="70px" width="90px" border-radius="10px" alt="logo"/>-->
+      <!--<li class ="hen" style="font-size: 50px;margin-left:50px;;">NOMACODE</li>-->
+       <ul id="sidemenu">
+        <li><a href="#home">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#certificates">Certification</a></li>
+        <li><a href="#portfolio">Projects </a></li>
+        <li><a href="#skills">Skills </a></li>
+        <li><a href="#contact">Contact Me</a></li> 
+        <i class="fa-regular fa-circle-xmark barss" onclick="closemenu()"></i> 
+      </ul>
+      
+      <i class="fa-solid fa-bars barss " onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <h1>Hi, I'm <br><span>Henry Anomah</span> from Kumasi</h1>
+      <p> Data Scientist</p>
+
+      
+
+
+    </div>
+  </div>
+</div>
+<!------------about---------->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="./assets/css/bio.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subtitle" style="color:white"><i>About Me</i></h1>
+        <p id="para" style="margin-top:30px;">I am most interested in working with data and technologies, and I have just embarked on the path to becoming a data scientist. Based on the program’s focus on statistical thinking and programming, I am eager about the possibilities of applying data and analysis to decision-making processes. By working on different data science projects, I am constantly acquiring skills in data manipulation, as well as modeling and visualization, while also appying software engineering practices to write efficient codes.</p> <br><p>As I continue to grow, my goal is to transition into big data engineering, where I can design and implement data architectures that handle large-scale datasets. I am particularly interested in cloud technologies and optimizing data pipelines to make data more accessible and useful across industries. I am eager to contribute to the transformative power of data in the future.</p>
+        
+        <div id="skills" class="tab-titles">
+         <!----<p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>-->
+          <p class="tab-links"  onclick="opentab('education')">EDUCATION</p>
+          <p class="tab-links"  onclick="opentab('experience')">EXPERIENCE</p>
+        </div>
+        <!--<div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Data Scienctist</span><br>Developing models to solve daily problems</li>
+            <li><span>Front End Development</span><br>Web app Development</li>
+            <li><span>Mobile App Developer</span><br>Building Andriod/Ios apps</li>
+          </ul>
+        </div>-->
+
+
+        <div class="tab-contents active-tab" id="education">
+          <ul>
+            <li><span>2024-2026</span><br>Google Learning Program- <a class="link" href="https://tomkinoutreach.org/">TomKin Outreach</a></li>
+            <li ><span>2024</span><br>Frontend Development- <a class="link" href="https://www.techproeducation.com/" >TechPro Education</a></li>
+            <li><span>2021-2023</span><br>General Science/St Hubert High School</li>
+            <li><span>2017-2020</span><br>General Studies/CRIG JHS</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2024-Present</span><br>Data Science Fellow @ AI community Africa</li>
+            <li ><span>2024</span><br><a class="link" href="https://www.alxafrica.com/">Alx</a> AI career Essentials</li>
+            <li ><span>2024</span><br> <a class="link" href="https://codtechitsolutions.com/">Codtech IT solution</a> Frontend Intern Training</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--certificates-->
+<div id="certificates">
+  <div class="container">
+    <h1 class="subtitle" style="color:white">Certifications</h1>
+    <div class="certificate-list">
+
+      <div>
+        <h2>Python</h2>
+        <img src="./assets/css/python.jpg" width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/15XyUOdBnKKr0C2gvwL7fQczai_I0WnzP/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/1xOEqyRwTtWKffO_iFRsMeUlkaMQ_2KHk/view?usp=sharing" class="view">View 
+          Cert</a>
+        <a href="https://drive.google.com/file/d/1KdOCZlNK0xs_flxbz-BMMWvKfOy4f_Bl/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/194FbRJZ83l0ImDTBTtGkbv7tTkJLlrt1/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      <div>
+        <h2>Pandas</h2>
+        <img src="./assets/css/pandas-python.png"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/12fr1m2LuQKvupEBz81g06aOP13b2PTLt/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/1MO6t3TTvQWrbNtyZEdohmcPA3UQJuKS3/view?usp=sharing" class="view">View Cert</a>
+
+      </div>
+      
+      <div>
+        <h2>Data Viz</h2>
+        <img src="./assets/css/datavis.jpeg" width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1IBjlTkrmjXLOAo69X2hTSNfsik1T6DJZ/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/1azWhNRyyGpLX6FYLtqYg3CsyKpp0qXCX/view?usp=sharing" class="view">View Cert</a>
+      </div>
+
+      <div>
+        <h2>DSA</h2>
+        <img src="./assets/css/dsa.jpg"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1r2gHClatyzcsNRecXmqcFQ7mfquf8QHl/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      <div>
+        <h2> AI Essentials</h2>
+        <img src="./assets/css/ai essen.jpg"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1WYfOFJXq5GFvD4eeYymMgR1tljS01Dap/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/1J72Feg7uUYe4g1TNdekT57ogjz1ZjvKe/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      
+      
+      <div>
+        <h2>Bloackchain Technology</h2>
+        <img src="./assets/css/blockchain-network.jpg"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1DvkjdkRBT_dZEUNVmW3nNnP4Qu29jFY5/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      <div>
+        <h2>Web Development</h2>
+        <img src="./assets/css/web-development-image.png"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1BPJ4-FQBQW6ATbz9pLFFSzocrwy75vhW/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/11vkQ6P2f3jwbDzccQx4ZMPk3P6d6T8dK/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      <div>
+        <h2>Artificial Intelligence</h2>
+        <img src="./assets/css/AI image.jpg"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1MbAZVY3xN34a4wN0TQvGynshfT8XL0Zm/view?usp=sharing" class="view">View Cert</a>
+      </div>
+      
+      
+       <div>
+          <h2>Data Analytics</h2>
+           <img src="./assets/css/data analysis.png" width="200px" height="250px">
+          <a href="https://drive.google.com/file/d/1bSrYUE-EBIEcysBp6_eHGJSHpqXeXRYG/view?usp=sharing" class="view">View Cert</a>
+           <a href="https://drive.google.com/file/d/1yOPgzREinbJix85AInpstfHPjjXQsoKB/view?usp=sharing" class="view">View Cert</a>
+          <a href="https://drive.google.com/file/d/1E-mC6nRb5BCHFGynJc1F4o11ACX_kHbE/view?usp=sharing" class="view">View Cert</a>
+        <a href="https://drive.google.com/file/d/1qt_FFlhWKIYMZyPZFGvcFVpdakGoMx7I/view?usp=sharing" class="view">View Cert</a>
+   </div>
+      
+      
+      <div>
+        <h2>Statistics in python</h2>
+        <img src="./assets/css/statistics-7.png"  width="200px" height="250px">
+        <a href="https://drive.google.com/file/d/1gev-zZnzjxyInv0fE6v3H1l7jinp7nDb/view?usp=sharing" class="view">View Cert</a>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">Projects</h1>
+    <div class="project-list">
+
+      <div class="project">
+        <img src="./assets/css/Mobile-money.jpg"/>
+        <div class="layer">
+          <h3>Momo fraud Analytics</h3>
+          <p>This project analyzes mobile money transaction data to detect patterns of fraudulent activity, aiming to develop insights and improve fraud detection methods.</p>
+          <a href="https://github.com/Noma7code/mobile_money_analysis.git" style="border-radius:50%"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <img src="./assets/css/netflix2.jpg"/>
+        <div class="layer">
+          <h3>Netflix Movie Analysis</h3>
+          <p>This project analyzes Netflix movie data to uncover trends in genres, ratings, and release years, providing insights for viewers and content creators.</p>
+          <a href="https://github.com/Noma7code/Data_Analytics.git"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+
+      <div class="project">
+        <img src="./assets/css/SAT.jpeg"/>
+        <div class="layer">
+          <h3>SAT score</h3>
+          <p>This project analyzes SAT score data to uncover trends in student performance, exploring factors such as score distribution, test participation rates.</p>
+          <a href="https://github.com/Noma7code/Data_Analytics.git"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+      
+      <div class="project">
+        <img src="./assets/css/Weather.png"/>
+        <div class="layer">
+          <h3>Weather Data analysis</h3>
+          <p>This project analyzes weather data to identify trends and patterns, providing insights on temperature changes, rainfall, and other climate factors over time.</p>
+          <a href="https://github.com/Noma7code/weather_data.git"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+      
+      <!--<div class="project">
+        <img src="./assets/css/Mobile-money.jpg"/>
+        <div class="layer">
+          <h3>Momo fraud Analytics</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem totam, repellendus facilis dolorum repellat, cum architecto eos dolores enim ad, alias amet quidem magni laboriosam nesciunt numquam commodi nisi laudantium?</p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+      
+      <div class="project">
+        <img src="./assets/css/Mobile-money.jpg"/>
+        <div class="layer">
+          <h3>Momo fraud Analytics</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem totam, repellendus facilis dolorum repellat, cum architecto eos dolores enim ad, alias amet quidem magni laboriosam nesciunt numquam commodi nisi laudantium?</p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div> -->
+
+    </div>
+    <!--<a href="#" class="btn">see more</a>-->
+  </div>
+</div>
+<hr class="rule">
+
+<!--contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row"> 
+      <div class="contact-left">
+        <h1 style="color:white" class="subtitle"><i fas fa-paper-plane></i>Contact Me</h1>
+        <p style="margin-top:40px; font-size:25px;"><i class="fa-solid fa-paper-plane"></i>yeboaha.henry@gmail.com</p>
+        <p style="margin-top:40px; font-size:25px;"><i class="fa-solid fa-phone"></i>+233202768707</p>
+        <div class="div-social-icons">
+          <a href="https://linkedin.com/in/henry-anomah-yeboah"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Noma7code"><i class="fa-brands fa-github"></i></a>
+          <a href="https://wa.me/0202768707"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://discordapp.com/users/1243697882746585200"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <!--<a href="#" download class="btn btn2">Download CV</a>-->
+        </div> 
+        <div class="contact-right" id="form-container">
+           <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required> 
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="6 "placeholder="Your message"></textarea>
+              <button style="margin-left:15px"type="submit"class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy  Henry. 2024 All right reserved</p>
+    </div>
+  </div>
+</div>
+
+<script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for (tablink of tablinks ){
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents ){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+      
+      var sidemenu = document.getElementById("sidemenu");
+       function openmenu(){
+       sidemenu.style.right="0";
+          }
+       function closemenu(){
+       sidemenu.style.right="-200px";
+      }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx3V7AWvMsosw3E-_TN_A9oCPAWWstmNfUQu4XO3-ZDHiFYR6xzv5BgXcf3rSb7eyx_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML= ""
+
+        },5000) 
+      form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
